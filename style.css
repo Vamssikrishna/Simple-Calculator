@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 99.5vh;
+    width: 99.8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.container{
+    height: 390px;
+    width: 350px;
+    border-radius: 1rem;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 10px 10px 40px burlywood;
+}
+
+.form{
+    height: 90px;
+    width: 370px;
+}
+
+#name{
+    text-align: right;
+    height: 90px;
+    width: 344px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    font-size: 2rem;
+    color: black;
+}
+
+.mini-container{
+    height: 270px;
+    width: 350px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    margin-top: 30px;
+    background-color: rgb(46, 46, 51);
+}
+
+.row1, .row2, .row3, .row4, .row5{
+    height: 50px;
+    width: 350px;
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row1{
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.row5{
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+button{
+    height: 40px;
+    width: 70px;
+    border-radius: 0.3rem;
+}
+
+#b17, #b18{
+    width: 100px;
+    border: none;
+}
+
+#b17, #b4{
+    background-color: rgb(37, 52, 52);
+    color: white;
+    font-weight: bold;
+}
+
+#b18{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+#b1, #b2, #b3, #b5, #b6, #b7, #add_button, #b9, #b10, #b11, #sub_button, #b13, #b14, #b15, #b16{
+    background-color: wheat;
+    font-size: 22px;
+    border: none;
+    color: black;
+}
